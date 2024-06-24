@@ -12,12 +12,12 @@ Make sure you have Python 3 installed.
 For conversion between Simplified/Traditional Chinese, you would need OpenCC for Python.
 You can install it using:
 ```
-pip install opencc-python-reimplemented
+pip3 install opencc-python-reimplemented
 ```
 
 To convert from .srt to .fcpxml (the most common use case), use:
 ```
-python srt_converter.py -i INPUT_FILE.srt -o OUTPUT_FILE.fcpxml
+python3 srt_converter.py -i INPUT_FILE.srt -o OUTPUT_FILE.fcpxml
 ```
 
 ## Usage
